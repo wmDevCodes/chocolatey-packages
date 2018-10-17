@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>imagemanager</id>
+    <version>7.5.6</version>
+    <title>StorageCraft ImageManager</title>
+    <authors>StorageCraft</authors>
+    <owners>Werner Mayer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.storagecraft.com/support/book/storagecraft-readme-files/imagemanager-release-notes-readme#licensing</licenseUrl>
+    <projectUrl>https://www.storagecraft.com/downloads/trials-updates</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/wmDevCodes/chocolatey-packages/master/icons/imagemanager.png</iconUrl>
+    <description>StorageCraft ImageManager helps you maintain and manage backup image files and the storage space used by those files. Based on a policy that you create, ImageManager automatically consolidates incremental backup image files into daily, weekly, and monthly incremental images.</description>
+    <summary>Free backup management software for SPX or ShadowProtect backups</summary>
+    <releaseNotes>Added new functionality to the ImageManager user Interface that allows you to:
+Verify (the currently select backup image).
+Verify Chain (verify the chain for the currently selected backup image).
+View Chain Shortest Path (shortest chain back to the base image from the currently selected backup image).
+*Remove Images not in shortest path.
+View Chain Redundant Images* (displays only if the most recent backup image is selected)
+A Redundant Image refers to a backup image whose data is contained in the next higher-rolled up consolidation file.
+
+*We strongly suggest not removing images or deleting redundant files without first consulting with StorageCraft support.
+Updated VirtualBox plugins to support the latest version of VirtualBox. 
+When using S3 replication, you can now enable lifecycle management to clean up old partial uploads (StorageCraft considers this to be a best practice).</releaseNotes>
+    <copyright>2006-2018 StorageCraft Technology Corporation. All Rights Reserved.</copyright>
+    <tags>storagecraft imagemanager backup</tags>
+  </metadata>
+  <files>
+    <file src="tools\chocolateyinstall.ps1" target="tools\chocolateyinstall.ps1" />
+    <file src="tools\chocolateyuninstall.ps1" target="tools\chocolateyuninstall.ps1" />
+    <file src="tools\helpers.ps1" target="tools\helpers.ps1" />
+  </files>
+</package>
