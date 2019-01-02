@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>sqlyog</id>
-    <version>13.1.1</version>
+    <version>13.1.2</version>
     <title>SQLyog (Community Edition)</title>
     <authors>Webyog</authors>
     <owners>Werner Mayer</owners>
@@ -10,11 +10,10 @@
     <licenseUrl>https://github.com/webyog/sqlyog-community/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/webyog/sqlyog-community</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/wmDevCodes/chocolatey-packages@252d9f7afe5f89d8a4c55fdd5f15685d56d9691a/icons/sqlyog_icon_flat.png</iconUrl>
-    <packageSourceUrl>https://github.com/wmDevCodes/chocolatey-packages/tree/master/manual/sqlyog</packageSourceUrl>
     <description>SQLyog is an all-round Management Tool ('GUI', 'Frontend') for MySQL. This is the free community edition of SQLYog. This will install to either C:\Program Files\SQLyog Community or C:\Program Files (x86)\SQLyog Community.</description>
     <summary>MySQL Manager and Admin Tool</summary>
     <releaseNotes></releaseNotes>
-    <copyright>2001-2018 Webyog Inc.</copyright>
+    <copyright>2001-2019 Webyog Inc.</copyright>
     <tags>sqlyog mysql admin</tags>
   </metadata>
   <files>
