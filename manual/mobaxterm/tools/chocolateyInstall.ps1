@@ -2,8 +2,8 @@ $ErrorActionPreference = 'Stop';
  
 $packageName  = 'mobaxterm'
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url          = 'https://download.mobatek.net/1102018093083521/MobaXterm_Installer_v11.0.zip'
-$checkSum     = '789711D76EA0CF3D39B9A4B98FD66DD5A83B6E6309682B80C2B0FA57AF24E0C0'
+$url          = 'https://download.mobatek.net/1112019010310554/MobaXterm_Installer_v11.1.zip'
+$checkSum     = '1E8898AB7A11A5AA9D8DA713E551E2805E53CF8FA7E33A169AF37FB32CE4221E'
 $checkSumType = 'SHA256'
  
 $packageArgs = @{
@@ -23,8 +23,8 @@ Install-ChocolateyZipPackage @packageArgs
 $packageArgs = @{
   packageName   = $packageName
   fileType      = 'MSI'
-  file          = Join-Path $toolsDir 'MobaXterm_installer_11.0.msi'
-  file64        = Join-Path $toolsDir 'MobaXterm_installer_11.0.msi'
+  file          = Join-Path $toolsDir 'MobaXterm_installer_11.1.msi'
+  file64        = Join-Path $toolsDir 'MobaXterm_installer_11.1.msi'
  
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes= @(0, 3010, 1641)

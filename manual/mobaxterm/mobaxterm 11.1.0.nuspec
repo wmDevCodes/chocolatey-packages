@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>mobaxterm</id>
-    <version>11.0.0</version>
+    <version>11.1.0</version>
     <title>MobaXTerm</title>
     <authors>Mobatek</authors>
     <owners>Werner Mayer</owners>
@@ -21,15 +21,7 @@ MobaXterm provides useful features for developers, sysadmins, webmasters and adv
 • tasks automation using scripts or macros
 You can also use some of the free plugins in order to extend MobaXterm capabilities!</description>
     <summary>Ultimate toolbox for remote computing</summary>
-    <releaseNotes>Improvement: when SSH-browser is disabled, remote-monitoring feature is now also disabled, in order to avoid issues on Cisco routers
-
-Improvement: the experimental CygUtils64 plugin can be used with MobaXterm. If you want to test it, you can download it at https://mobaxterm.mobatek.net/CygUtils64.plugin
-
-Bugfix: fixed the "live-unpack" mechanism for local terminal plugins - some plugins were not working properly in "installed mode" or when using "persistent root"
-
-Bugfix: fixed some issues with X server detection which led to the "X" icon to stay red whereas X11 server was started
-
-Bugfix: fixed some issues with "Follow terminal folder" when remote monitoring was enabled</releaseNotes>
+    <releaseNotes>https://blog.mobatek.net/post/mobaxterm-new-release-11.1/</releaseNotes>
     <copyright>2008 - 2018 Mobatek.</copyright>
     <tags>terminal x11 ssh vnc rdp telnet rlogin ftp sftp xdmcp admin</tags>
   </metadata>
