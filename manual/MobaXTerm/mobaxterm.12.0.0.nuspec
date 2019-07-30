@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>mobaxterm</id>
-    <version>11.1.0</version>
+    <version>12.0.0</version>
     <title>MobaXTerm</title>
     <authors>Mobatek</authors>
     <owners>Werner Mayer</owners>
@@ -21,8 +21,8 @@ MobaXterm provides useful features for developers, sysadmins, webmasters and adv
 • tasks automation using scripts or macros
 You can also use some of the free plugins in order to extend MobaXterm capabilities!</description>
     <summary>Ultimate toolbox for remote computing</summary>
-    <releaseNotes>https://blog.mobatek.net/post/mobaxterm-new-release-11.1/</releaseNotes>
-    <copyright>2008 - 2017 Mobatek</copyright>
+    <releaseNotes>https://blog.mobatek.net/post/mobaxterm-new-release-12.0/</releaseNotes>
+    <copyright>2008 - 2019 Mobatek</copyright>
     <tags>terminal x11 ssh vnc rdp telnet rlogin ftp sftp xdmcp admin</tags>
   </metadata>
   <files>
