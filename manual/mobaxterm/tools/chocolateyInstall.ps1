@@ -19,7 +19,7 @@ $packageArgsZip = @{
  
 Install-ChocolateyZipPackage @packageArgsZip
  
-$packapackageArgsMsigeArgs = @{
+$packageArgsMsi = @{
   packageName   = $packageName
   fileType      = 'MSI'
   file          = Join-Path $toolsDir 'MobaXterm_installer_12.0.msi'
