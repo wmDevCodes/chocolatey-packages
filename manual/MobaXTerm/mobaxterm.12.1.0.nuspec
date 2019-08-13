@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>mobaxterm</id>
-    <version>12.0.0</version>
+    <version>12.1.0</version>
     <title>MobaXTerm</title>
     <authors>Mobatek</authors>
     <owners>Werner Mayer</owners>
@@ -21,7 +21,19 @@ MobaXterm provides useful features for developers, sysadmins, webmasters and adv
 • tasks automation using scripts or macros
 You can also use some of the free plugins in order to extend MobaXterm capabilities!</description>
     <summary>Ultimate toolbox for remote computing</summary>
-    <releaseNotes>https://blog.mobatek.net/post/mobaxterm-new-release-12.0/</releaseNotes>
+    <releaseNotes>Bugfix: corrected SSH connection failures caused by hardware accelerated encryption
+
+Bugfix: in some specific cases, local terminal output was garbled after a commandline SSH connection and a network error during SSH communication
+
+Bugfix: fixed "ldd" command which was missing some DLLs in its listing
+
+Bugfix: fixed an issue in Windows colors selection dialog resulting in black color being applied in case of dialog failure
+
+Bugfix: fixed an issue with the "cmd" command when it was started from a local terminal
+
+Bugfix: fixed an issue with backslash characters being duplicated in SSH sessions "Execute command" field
+
+Bugfix: fixed an issue with backslash characters being duplicated in SSH sessions "Username" field</releaseNotes>
     <copyright>2008 - 2019 Mobatek</copyright>
     <tags>terminal x11 ssh vnc rdp telnet rlogin ftp sftp xdmcp admin</tags>
   </metadata>
