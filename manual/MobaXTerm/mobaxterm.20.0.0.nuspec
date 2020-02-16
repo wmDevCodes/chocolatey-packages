@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>mobaxterm</id>
-    <version>12.4.0</version>
+    <version>20.0.0</version>
     <title>MobaXTerm</title>
     <authors>Mobatek</authors>
-    <owners>Werner Mayer</owners>
+    <owners>wmdev</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://mobaxterm.mobatek.net/license.html</licenseUrl>
     <projectUrl>http://mobaxterm.mobatek.net/</projectUrl>
@@ -20,12 +20,9 @@ MobaXterm provides useful features for developers, sysadmins, webmasters and adv
 • advanced SSH tunnels creation tool (graphical port forwarding builder)
 • tasks automation using scripts or macros
 You can also use some of the free plugins in order to extend MobaXterm capabilities!</description>
-    <summary>Ultimate toolbox for remote computing</summary>
-    <releaseNotes>Security fix: prohibited the use of URL which do not correspond to a MobaXterm session (fixes CVE-2019-16305)
-Security fix: added a comprehensive warning message when opening a session from an URL. This message contains details about the session to be launched and a warning concerning the URL provider.
-Bugfix: in the password management window, after showing passwords and closing the form, the password fields are now automatically hidden
-Bugfix: RDP size was not calculated properly when launching a remote desktop session while the SSH remote monitoring toolbar was active</releaseNotes>
-    <copyright>2008 - 2019 Mobatek</copyright>
+    <summary>MobaXterm Home Edidtion. Ultimate toolbox for remote computing</summary>
+    <releaseNotes>https://blog.mobatek.net/post/mobaxterm-new-release-20.0/</releaseNotes>
+    <copyright>2008 - 2020 Mobatek</copyright>
     <tags>terminal x11 ssh vnc rdp telnet rlogin ftp sftp xdmcp admin</tags>
   </metadata>
   <files>
