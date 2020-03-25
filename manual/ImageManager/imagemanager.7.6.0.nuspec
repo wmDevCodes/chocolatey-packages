@@ -5,9 +5,9 @@
     <version>7.6.0</version>
     <title>StorageCraft ImageManager</title>
     <authors>StorageCraft</authors>
-    <owners>Werner Mayer</owners>
+    <owners>wmdev.codes</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <licenseUrl>https://www.storagecraft.com/support/book/storagecraft-readme-files/imagemanager-release-notes-readme#licensing</licenseUrl>
+    <licenseUrl>https://www.storagecraft.com/legal/license-agreement</licenseUrl>
     <projectUrl>https://www.storagecraft.com/downloads/trials-updates</projectUrl>
     <iconUrl>https://rawcdn.githack.com/wmDevCodes/chocolatey-packages/master/icons/imagemanager.png</iconUrl>
     <description>StorageCraft ImageManager helps you maintain and manage backup image files and the storage space used by those files. Based on a policy that you create, ImageManager automatically consolidates incremental backup image files into daily, weekly, and monthly incremental images.</description>
