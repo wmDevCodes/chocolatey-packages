@@ -5,10 +5,10 @@ $packageArgs = @{
   packageName    = 'imagemanager'
   softwareName   = 'StorageCraft ImageManager*'
   fileType       = 'exe'
-  url            = 'https://downloads.storagecraft.com/SP_Files/ImageManager_Setup_7.5.6.exe'
+  url            = 'https://downloads.storagecraft.com/SP_Files/ImageManager_Setup_7.6.0.exe'
   silentArgs     = '/quiet IACCEPT=STORAGECRAFT.EULA Language=en-AU Reboot=No'
-  checksum       = '650C91CD274F4E1E8BBA1B6191405711'
-  checksumType   = 'md5'
+  checksum       = 'F6819F19C0F0A384B5CB1E4433A7D214B29645DA599D9B5BAFC6B980795BB079'
+  checksumType   = 'SHA256'
   unzipLocation  = $toolsDir
 }
 
