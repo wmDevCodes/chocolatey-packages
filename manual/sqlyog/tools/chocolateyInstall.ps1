@@ -1,15 +1,16 @@
-﻿$url = 'https://s3.amazonaws.com/SQLyog_Community/SQLyog+13.1.5/SQLyog-13.1.5-0.x86Community.exe'
-$url64 = 'https://s3.amazonaws.com/SQLyog_Community/SQLyog+13.1.5/SQLyog-13.1.5-0.x64Community.exe'
+﻿$url = $url64 = 'https://s3.amazonaws.com/SQLyog_Community/SQLyog+13.1.6/SQLyog-13.1.6-0.x64Community.exe'
+$checksum = '42568B23642C3E00E11B6CEC958A4395B96538B04148B9855B4881392DCE66D1'
+$checksumType = 'SHA256'
 
 $packageArgs = @{
   packageName    = 'sqlyog'
   fileType       = 'EXE'
   url            = $url
   url64bit       = $url64
-  checksum       = 'CCF0FE526E7B4931E8A76B7110E12DD8F705BD6AA666C03380B5B17329403101'
-  checksumType   = 'SHA256'
-  checksum64     = 'E3071A8D0F24D8C2A45000D0F6A53912CFC06EE752CB4F623C1B4D54A27903A0'
-  checksumType64 = 'SHA256'  
+  checksum       = $checksum
+  checksumType   = $checksumType
+  checksum64     = $checksum
+  checksumType64 = $checksumType
   silentArgs     = "/S"
 }
 

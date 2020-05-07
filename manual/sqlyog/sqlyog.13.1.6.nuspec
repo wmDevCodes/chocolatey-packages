@@ -2,18 +2,33 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>sqlyog</id>
-    <version>13.1.5</version>
+    <version>13.1.6</version>
     <title>SQLyog (Community Edition)</title>
     <authors>Webyog</authors>
-    <owners>Werner Mayer</owners>
+    <owners>wmdev</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://github.com/webyog/sqlyog-community/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/webyog/sqlyog-community</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/wmDevCodes/chocolatey-packages@252d9f7afe5f89d8a4c55fdd5f15685d56d9691a/icons/sqlyog_icon_flat.png</iconUrl>
     <description>SQLyog is an all-round Management Tool ('GUI', 'Frontend') for MySQL. This is the free community edition of SQLYog. This will install to either C:\Program Files\SQLyog Community or C:\Program Files (x86)\SQLyog Community.</description>
     <summary>MySQL Manager and Admin Tool</summary>
-    <releaseNotes></releaseNotes>
-    <copyright>2001-2019 Webyog Inc.</copyright>
+    <releaseNotes>Important notice: The 32-bit version has been discontinued from this version onwards.
+
+This new release of SQLyog has additional features and addresses multiple bugs.
+
+Changes in SQLyog MySQL GUI 13.1.6 include:
+
+Enhancements:
+
+An option has been added to specify the authentication plugin while creating/altering the user. This option is available for MySQL 5.7+ and MariaDB 10.4+ servers.
+Now, it is possible to create invisible and descending indexes. This option is available for MySQL 8.0.11+ servers.
+Bug Fixes:
+
+In some rare cases, SQLyog failed to connect MySQL over an SSH tunnel.
+The saved connection names longer than 44 characters were clipped on the right-side in the drop-down list of saved connections.
+Fixed a UI issue for a column of ‘enum’ datatype in Alter table GUI.
+Scheduled backup failed to send an email on the successful completion of the backup in a rare case.</releaseNotes>
+    <copyright>2001-2020 Webyog Inc.</copyright>
     <tags>sqlyog mysql admin</tags>
   </metadata>
   <files>
