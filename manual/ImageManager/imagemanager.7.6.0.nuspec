@@ -21,4 +21,7 @@
     <file src="tools\chocolateyuninstall.ps1" target="tools\chocolateyuninstall.ps1" />
     <file src="tools\helpers.ps1" target="tools\helpers.ps1" />
   </files>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
 </package>
