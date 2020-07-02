@@ -2,14 +2,14 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName    = 'imagemanager'
-  softwareName   = 'StorageCraft ImageManager*'
-  fileType       = 'exe'
-  url            = 'https://downloads.storagecraft.com/SP_Files/ImageManager_Setup_7.6.0.exe'
-  silentArgs     = '/quiet IACCEPT=STORAGECRAFT.EULA Language=en-AU Reboot=No'
-  checksum       = 'F6819F19C0F0A384B5CB1E4433A7D214B29645DA599D9B5BAFC6B980795BB079'
-  checksumType   = 'SHA256'
-  unzipLocation  = $toolsDir
+  packageName   = 'imagemanager'
+  softwareName  = 'StorageCraft ImageManager*'
+  fileType      = 'exe'
+  url           = 'https://downloads.storagecraft.com/SP_Files/ImageManager_Setup_7.6.2.exe'
+  silentArgs    = '/quiet IACCEPT=STORAGECRAFT.EULA Language=en-US Reboot=No'
+  checksum      = 'D5715F4BA129938BD5EC1623104F7CFD7E8251E9E96E29F187F8F67FD0BE34D8'
+  checksumType  = 'SHA256'
+  unzipLocation = $toolsDir
 }
 
 Install-ChocolateyPackage @packageArgs

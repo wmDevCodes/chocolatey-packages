@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>imagemanager</id>
-    <version>7.6.0</version>
+    <version>7.6.2</version>
     <title>StorageCraft ImageManager</title>
     <authors>StorageCraft</authors>
     <owners>wmdev.codes</owners>
@@ -12,7 +12,7 @@
     <iconUrl>https://rawcdn.githack.com/wmDevCodes/chocolatey-packages/master/icons/imagemanager.png</iconUrl>
     <description>StorageCraft ImageManager helps you maintain and manage backup image files and the storage space used by those files. Based on a policy that you create, ImageManager automatically consolidates incremental backup image files into daily, weekly, and monthly incremental images.</description>
     <summary>Free backup management software for SPX or ShadowProtect backups</summary>
-    <releaseNotes>http://get.storagecraft.com/wBZHm4OW30000XHP00H1R08</releaseNotes>
+    <releaseNotes>https://support.storagecraft.com/s/article/imagemanager-release-notes-readme</releaseNotes>
     <copyright>2006-2020 StorageCraft Technology Corporation. All Rights Reserved.</copyright>
     <tags>storagecraft imagemanager backup</tags>
   </metadata>
