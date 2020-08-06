@@ -1,5 +1,5 @@
 ﻿$url = $url64 = 'https://s3.amazonaws.com/SQLyog_Community/SQLyog+13.1.6/SQLyog-13.1.6-0.x64Community.exe'
-$checksum = '42568B23642C3E00E11B6CEC958A4395B96538B04148B9855B4881392DCE66D1'
+$checksum = '0766FF7479E33A2B0EA546FB4D830BC311CD1C320B7B7621FD18CB40D33204B2'
 $checksumType = 'SHA256'
 
 $packageArgs = @{
